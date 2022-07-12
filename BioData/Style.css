@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(247, 246, 233);
+    font-family: 'Edu SA Beginner', cursive;  
+}
+.container{
+    max-width: 1000px;
+    background-color: aqua;
+    margin:0 auto;
+}
+.profile-pic{
+    width: 100px;
+    height: auto;
+    border: 3px solid rgb(238, 10, 10);
+    border-radius:120px;
+    padding: 3px;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6{
+    color: rgb(107, 107, 216);
+    font-weight:bold;
+    margin-top: 5px;
+}
+.header-contact{
+    float: right;
+    padding: 15px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+}
+.header-contact :hover a{
+    text-decoration: underline;
+    color: rgb(248, 9, 236);
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border:3px solid rgb(241, 93, 7);
+    border-bottom: none;
+    margin: 10px;
+}
+.left-div{
+    margin-left: 10px;
+    float: left;
+    width: 30%;
+    margin-top: 20px;
+
+}
+.right-div{
+    margin:3px ;
+    float: left;
+    max-width: 70%;
+}
+.common-hr{
+    border: 2px solid rgb(133, 59, 6);
+    border-bottom: none;
+    margin: 10px;
+}
+.content{
+    margin: 5px;
+}
+.education1{
+    float: left;
+    margin:3px;
+}
+.education2{
+    float: left;
+    margin-left: 20px;
+}
+.footer1{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.footer1 a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+.footer1 p{
+    color: white;
+    margin-top: 20px;
+}
+
+
+
+
+
